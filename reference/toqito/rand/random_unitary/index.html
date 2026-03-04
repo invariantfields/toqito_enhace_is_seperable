@@ -8804,8 +8804,8 @@ random <span class="arithmatex">\(2\)</span>-dimensional random unitary matrix w
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">complex_dm</span><span class="p">)</span>
 </code></pre></div>
-<p>[[-0.09976132+0.72966802j  0.20710094-0.64400424j]
- [ 0.65163824+0.18165867j  0.66405672+0.31842803j]]</p>
+<p>[[ 0.4317751 +0.22827347j -0.58794391+0.64481272j]
+ [-0.81257872+0.31808381j  0.05853905+0.48488317j]]</p>
 <p>We can verify that this is in fact a valid unitary matrix using the <code>is_unitary</code> function
 from <code>|toqito⟩</code> as follows</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">toqito.matrix_props</span><span class="w"> </span><span class="kn">import</span> <span class="n">is_unitary</span>
@@ -8820,8 +8820,8 @@ from <code>|toqito⟩</code> as follows</p>
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">real_dm</span><span class="p">)</span>
 </code></pre></div>
-<p>[[ 0.03832274 -0.99926541]
- [ 0.99926541  0.03832274]]</p>
+<p>[[ 0.9849537 -0.1728184]
+ [ 0.1728184  0.9849537]]</p>
 <p>Again, verifying that this is a valid unitary matrix can be done as follows.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">toqito.matrix_props</span><span class="w"> </span><span class="kn">import</span> <span class="n">is_unitary</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
@@ -8836,10 +8836,10 @@ opposed to an <code>int</code>. Here is an example of a random unitary matrix of
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">mat</span><span class="p">)</span>
 </code></pre></div>
-<p>[[ 0.39843867 -0.57906181  0.45328305  0.54815009]
- [-0.72478363 -0.47859951 -0.37129942  0.32828028]
- [ 0.34981537 -0.61926112 -0.39733136 -0.57989021]
- [ 0.43995969  0.22835409 -0.70625704  0.50546106]]</p>
+<p>[[ 0.05257422  0.10032294 -0.81581069 -0.56711919]
+ [-0.16157073  0.77281243  0.40510847 -0.46102384]
+ [ 0.95713154  0.26421443  0.01208538  0.11808423]
+ [ 0.23458486 -0.56823146  0.41254573 -0.67222687]]</p>
 <p>As before, we can verify that this matrix generated is a valid unitary matrix.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">toqito.matrix_props</span><span class="w"> </span><span class="kn">import</span> <span class="n">is_unitary</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
